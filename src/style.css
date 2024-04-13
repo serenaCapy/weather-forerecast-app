@@ -89,6 +89,26 @@ main {
   color: #f65282;
 }
 
+.weather-forecast {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: black;
+  opacity: 0.6;
+}
+
+.weather-forecast-temp {
+  font-size: 13px;
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.5;
+}
+
 footer {
   border-top: 1px solid #e4f1fe;
   padding: 30px 0 0 0;
