@@ -9,7 +9,7 @@ a {
 
 .weather-app {
   background-color: white;
-  max-width: 700px;
+  max-width: 50%;
   margin: 55px auto;
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -104,8 +104,9 @@ main {
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 72px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temps {
@@ -116,8 +117,13 @@ main {
   justify-content: center;
 }
 
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
 .weather-forecast-temp-min {
-  opacity: 0.5;
+  opacity: 0.7;
+  padding-left: 0 10px;
 }
 
 footer {
